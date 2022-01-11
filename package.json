@@ -1,0 +1,36 @@
+{
+  "name": "cesium-helper",
+  "version": "1.0.23",
+  "keywords": [
+    "cesium",
+    "CesiumJS",
+    "webpack",
+    "example"
+  ],
+  "main": "/dist/main.js",
+  "files": [
+    "/dist/"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --config webpack.dev.js --open"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "cesium": "^1.89.0",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  },
+  "dependencies": {
+    "@types/npm": "^7.19.0",
+    "typescript": "^4.5.4",
+    "webpack-merge": "^5.8.0"
+  }
+}
